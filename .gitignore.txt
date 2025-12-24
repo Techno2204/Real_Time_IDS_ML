@@ -1,9 +1,21 @@
+# Python cache
 __pycache__/
-.venv/
-.env
-*.pkl
-*.pcap
+*.pyc
+
+# Datasets (do not upload)
+data/raw/*
+!data/raw/.gitkeep
+
+# Large files not needed in repo
 *.csv
+*.pcap
+*.pcapng
 *.log
-.idea/
+
+# Virtual env
+venv/
+.venv/
+
+# System files
 .DS_Store
+Thumbs.db
