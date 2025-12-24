@@ -1,21 +1,96 @@
-# Python cache
-__pycache__/
-*.pyc
+# ======================================
+# PROJECT-SPECIFIC (VERY IMPORTANT)
+# ======================================
 
-# Datasets (do not upload)
-data/raw/*
-!data/raw/.gitkeep
+# Do NOT upload datasets
+data/raw/
 
-# Large files not needed in repo
-*.csv
-*.pcap
-*.pcapng
+# Do NOT upload trained ML models
+trained_models/
+
+# Logs
+logs/
 *.log
 
-# Virtual env
-venv/
-.venv/
+# Temporary packet captures
+*.pcap
+*.pcapng
 
-# System files
-.DS_Store
+
+# ======================================
+# PYTHON
+# ======================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual envs
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+
+# ======================================
+# IDE & EDITORS
+# ======================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+
+# ======================================
+# OS FILES
+# ======================================
+
+# Windows
 Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# ======================================
+# BACKUPS
+# ======================================
+
+*.bak
+*.tmp
+*.swp
+*.orig
