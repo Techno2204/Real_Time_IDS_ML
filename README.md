@@ -30,7 +30,7 @@ This project is designed for:
 
 ## Dashboard Preview
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/Dashboard.png)
 
 The dashboard displays:
 
